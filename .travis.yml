@@ -8,7 +8,7 @@ before_install:
   - rm Gemfile.lock || true
   - gem update --system
   - gem update bundler
-  - gem install 'rake', '10.5.0'
+  - gem 'rake', '10.5.0'
   - gem --version
   - bundle -v
 matrix:
